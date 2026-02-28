@@ -1,0 +1,132 @@
+header {
+  background: #5e43d3;
+  color: white;
+  padding: 15px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 20px;
+}
+header button {
+  font-size: 22px;
+  border: none;
+  background: white;
+  cursor: pointer;
+  border-radius: 6px;
+  padding: 5px 10px;
+}
+.controls {
+  text-align: center;
+}
+
+.controls button {
+  margin: 5px;
+  padding: 8px 20px;
+  cursor: pointer;
+}
+.task-input {
+  display: flex;
+  gap: 10px;
+}
+
+.task-input input {
+  flex: 1;
+  padding: 8px;
+}
+
+.task-input button {
+  padding: 8px 12px;
+}
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background: url("bg.jpg") no-repeat center center/cover;
+}
+
+h1 {
+  margin-top: 20px;
+}
+
+#time {
+  font-size: 40px;
+  margin: 20px 0;
+}
+
+.controls button {
+  margin: 5px;
+  padding: 8px 15px;
+  cursor: pointer;
+}
+
+input {
+  padding: 6px;
+  margin: 5px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin: 10px 0;
+  padding: 10px;
+  background: white;
+  border-radius: 6px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.completed {
+  text-decoration: line-through;
+  opacity: 0.6;
+}
+
+/* Popup */
+#popup {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  background: black;
+  color: white;
+  padding: 15px 20px;
+  border-radius: 8px;
+  font-size: 16px;
+}
+
+.hidden {
+  display: none;
+}
+
+/* Dark mode */
+.dark {
+  background: #111;
+  color: white;
+}
+
+#themeToggle {
+  padding: 10px, 15px;
+  margin: 10px;
+  background-color: #111;
+  color: #f4f4f4;
+  border-radius: 15px;
+}
+
+#soundToggle{
+  padding: 10px, 15px;
+  margin: 10px;
+  background-color: #257fa2;
+  color: #f4f4f4;
+  border-radius: 10px;
+}
+
+#focusBtn {
+  padding: 10px, 5px;
+  margin: 10px;
+  background-color: #257fa2;
+  color: #f4f4f4;
+  font-size: 20px;
+}
+.dark li {
+  background: #222;
+}

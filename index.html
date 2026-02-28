@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Focus App</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="header">
+  <h1>🎯 Focus Mode</h1>
+  <div class="header-buttons">
+    <button id="themeToggle">🌙</button>
+    <button id="soundToggle">🔊</button>
+    <button id="focusBtn">⛶</button>
+  </div>
+</header>
+
+<main>
+
+  <h2 id="time">00:00:00</h2>
+
+  <div class="controls">
+    <button id="pause">⏸ Pause</button>
+    <button id="resume">▶ Resume</button>
+    <button id="reset">⟲ Reset</button>
+  </div>
+
+  <hr>
+
+  <section class="task-section">
+    <h3>Add Task</h3>
+
+    <div class="task-inputs">
+      <input type="text" id="taskInput" placeholder="Task name">
+      <input type="number" id="taskHours" placeholder="Hours" min="0">
+      <input type="number" id="taskMinutes" placeholder="Minutes" min="0">
+      <button id="addTask">Add Task</button>
+    </div>
+
+    <ul id="taskList"></ul>
+  </section>
+
+</main>
+
+<!-- Quote Popup -->
+<div id="popup" class="hidden"></div>
+
+<script src="script.js"></script>
+</body>
+</html>
